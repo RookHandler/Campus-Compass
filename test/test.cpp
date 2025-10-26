@@ -43,6 +43,9 @@ TEST_CASE("Test 2", "[tag]") {
 // of this project!
 
 // See the following for an example of how to easily test your output.
+// Note that while this works, I recommend also creating plenty of unit tests for particular functions within your code.
+// This pattern should only be used for final, end-to-end testing.
+
 // This uses C++ "raw strings" and assumes your PageRank outputs a string with
 //   the same thing you print.
 TEST_CASE("Example CampusCompass Output Test", "[flag]") {

@@ -10,6 +10,6 @@ private:
 public:
     // Think about what helper functions you will need in the algorithm
     CampusCompass(); // constructor
-    bool ParseCSV(const string &filepath);
+    bool ParseCSV(const string &edges_filepath, const string &classes_filepath);
     bool ParseCommand(const string &command);
 };

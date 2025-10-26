@@ -9,8 +9,7 @@ int main() {
     CampusCompass compass;
 
     // ingest CSV data
-    // compass
-
+    compass.ParseCSV("../data/edges.csv", "../data/classes.csv");
 
     // the below is example code for parsing commandline input
     int no_of_lines;
