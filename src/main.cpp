@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     // initialize your main project object
-    CampusCompass compass;
+    campusCompass compass;
 
     // ingest CSV data
     compass.ParseCSV("../data/edges.csv", "../data/classes.csv");
@@ -22,4 +22,5 @@ int main() {
         // parse your commands however you see fit
         compass.ParseCommand(command);
     }
+    return 0;
 }
